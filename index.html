@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NostroMostro - Exchange P2P de Bitcoin para España</title>
+  <meta name="description" content="NostroMostro es un exchange P2P de Bitcoin no custodial sobre Lightning Network y Nostr para la comunidad espanola. Sin KYC, privado y resistente a censura.">
+  <link rel="icon" href="nostromostro.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="nostromostro.png" alt="NostroMostro logo">
+        NostroMostro
+      </a>
+      <ul class="nav-links">
+        <li><a href="#que-es">Que es</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#conectar">Conectar</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#seguridad">Seguridad</a></li>
+        <li><a href="#comunidad">Comunidad</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <img src="nostromostro.png" alt="NostroMostro - Toro con rayo" class="hero-logo">
+      <h1><span class="highlight">NostroMostro</span></h1>
+      <p class="tagline">Exchange P2P de Bitcoin para España</p>
+      <div class="btn-group">
+        <a href="https://github.com/MostroP2P/mostro/releases/" target="_blank" rel="noopener" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Descargar Mostro
+        </a>
+        <a href="https://t.me/nostromostro" target="_blank" rel="noopener" class="btn btn-secondary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+          Telegram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUE ES -->
+  <section id="que-es">
+    <div class="container">
+      <h2 class="section-title">Que es NostroMostro?</h2>
+      <p class="section-subtitle">
+        NostroMostro es la instancia española de <strong>Mostro</strong>, un exchange P2P no custodial
+        que funciona sobre <strong>Lightning Network</strong> y el protocolo <strong>Nostr</strong>.
+        Compra y vende Bitcoin de forma privada, sin intermediarios.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <h3>Sin KYC</h3>
+          <p>No necesitas verificar tu identidad. Opera con total privacidad sin entregar tus datos personales.</p>
+        </div>
+        <div class="feature-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <h3>No custodial</h3>
+          <p>Tus sats nunca estan en manos de terceros. El intercambio se realiza directamente entre pares.</p>
+        </div>
+        <div class="feature-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><line x1="12" y1="15" x2="12" y2="18"/></svg>
+          <h3>Cifrado E2E</h3>
+          <p>Todas las comunicaciones estan cifradas de extremo a extremo gracias al protocolo Nostr.</p>
+        </div>
+        <div class="feature-card">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <h3>Lightning Network</h3>
+          <p>Transacciones instantaneas y con comisiones minimas gracias a la red Lightning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">Como funciona?</h2>
+      <p class="section-subtitle">En 5 sencillos pasos puedes comprar o vender Bitcoin de forma privada.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Descarga una wallet Lightning</h3>
+          <p>Phoenix, Breez o Zeus son buenas opciones para empezar.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Instala un cliente Mostro</h3>
+          <p>Descarga la app Android de Mostro desde GitHub.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Conecta con NostroMostro</h3>
+          <p>Configura el cliente con la npub de nuestra instancia.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Crea o toma una orden</h3>
+          <p>Publica una oferta o acepta una orden existente de compra o venta.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">5</div>
+          <h3>Intercambia y recibe</h3>
+          <p>Al confirmar el pago fiat, los sats se liberan automaticamente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONECTAR -->
+  <section id="conectar">
+    <div class="container">
+      <h2 class="section-title">Conectarse a NostroMostro</h2>
+      <p class="section-subtitle">Usa esta npub para conectar tu cliente Mostro a la instancia espanola.</p>
+      <div class="connect-box">
+        <h3>npub de NostroMostro</h3>
+        <div class="npub-container">
+          <span class="npub-text" id="npub-text">npub1qqqvcqssrmpfa65uuc3jtp6jh8ta5ekz0pz76f5ydhgtplrnddqqrqe7xr</span>
+          <button class="btn-copy" id="copy-npub">Copiar</button>
+        </div>
+        <div class="connect-instructions">
+          <ol>
+            <li>Abre tu cliente Mostro (app Android)</li>
+            <li>Ve a Ajustes o Configuracion</li>
+            <li>Pega la npub de arriba como instancia de Mostro</li>
+            <li>Guarda y empieza a operar!</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTES -->
+  <section id="clientes" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">Clientes disponibles</h2>
+      <p class="section-subtitle">Elige el cliente que mejor se adapte a ti para interactuar con Mostro.</p>
+      <div class="clients-grid">
+        <div class="client-card">
+          <h3>Mostro Android</h3>
+          <span class="badge badge-available">Disponible</span>
+          <p>App movil para Android. La forma mas facil de comprar y vender Bitcoin con Mostro.</p>
+          <a href="https://github.com/MostroP2P/mostro/releases/" target="_blank" rel="noopener" class="client-link">Descargar en GitHub &rarr;</a>
+        </div>
+        <div class="client-card">
+          <h3>mostro-cli</h3>
+          <span class="badge badge-available">Disponible</span>
+          <p>Cliente de linea de comandos para usuarios avanzados. Rapido y flexible.</p>
+          <a href="https://github.com/MostroP2P/mostro-cli" target="_blank" rel="noopener" class="client-link">Ver en GitHub &rarr;</a>
+        </div>
+        <div class="client-card">
+          <h3>Mostrix</h3>
+          <span class="badge badge-available">Disponible</span>
+          <p>Interfaz de terminal (TUI) para Mostro. Ideal para quienes prefieren la terminal con interfaz visual.</p>
+          <a href="https://github.com/MostroP2P/mostrix" target="_blank" rel="noopener" class="client-link">Ver en GitHub &rarr;</a>
+        </div>
+        <div class="client-card">
+          <h3>Mostro iOS</h3>
+          <span class="badge badge-soon">Proximamente</span>
+          <p>App nativa para iPhone y iPad. En desarrollo por la comunidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METODOS DE PAGO -->
+  <section id="pagos">
+    <div class="container">
+      <h2 class="section-title">Metodos de pago</h2>
+      <p class="section-subtitle">Los compradores y vendedores acuerdan libremente el metodo de pago. Estos son los mas habituales en España.</p>
+      <div class="payment-methods">
+        <span class="payment-tag">Bizum</span>
+        <span class="payment-tag">Transferencia bancaria</span>
+        <span class="payment-tag">Revolut</span>
+        <span class="payment-tag">PayPal</span>
+        <span class="payment-tag">Wise</span>
+        <span class="payment-tag">N26</span>
+      </div>
+      <p class="payment-note">Los metodos de pago se acuerdan entre las partes en cada operacion. No hay restricciones.</p>
+    </div>
+  </section>
+
+  <!-- SEGURIDAD -->
+  <section id="seguridad" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">Seguridad y consejos</h2>
+      <p class="section-subtitle">Sigue estas recomendaciones para operar de forma segura.</p>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <div>
+            <h3>Guarda tu frase de recuperacion</h3>
+            <p>Apunta las 12 palabras de tu wallet ANTES de operar. Sin ellas, puedes perder tus fondos para siempre.</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <div>
+            <h3>Busca soporte en la comunidad</h3>
+            <p>Si tienes dudas o problemas, unete al grupo de Telegram <a href="https://t.me/nostromostro" target="_blank" rel="noopener">@nostromostro</a> donde la comunidad te puede ayudar.</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          <div>
+            <h3>Hold invoices te protegen</h3>
+            <p>Los sats quedan retenidos en una hold invoice durante la operacion. Se liberan al confirmar el pago fiat.</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <div>
+            <h3>Revisa la reputacion</h3>
+            <p>Antes de operar, comprueba el historial y la reputacion de tu contraparte en el sistema.</p>
+          </div>
+        </div>
+        <div class="tip-card">
+          <svg class="tip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <div>
+            <h3>Empieza con poco</h3>
+            <p>Haz tu primera operacion con una cantidad pequena para familiarizarte con el proceso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMUNIDAD -->
+  <section id="comunidad">
+    <div class="container">
+      <div class="community-section">
+        <h2 class="section-title">Comunidad</h2>
+        <p>Unete al grupo de Telegram de NostroMostro para resolver dudas, compartir experiencia y conectar con otros usuarios.</p>
+        <a href="https://t.me/nostromostro" target="_blank" rel="noopener" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+          Unirse a Telegram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://mostro.network" target="_blank" rel="noopener">mostro.network</a>
+        <a href="https://github.com/MostroP2P" target="_blank" rel="noopener">GitHub MostroP2P</a>
+        <a href="https://mostro.community" target="_blank" rel="noopener">mostro.community</a>
+      </div>
+      <p class="footer-credit">Powered by Mostro Protocol</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -126,8 +126,10 @@ a.btn-secondary:hover {
 .nav-logo img {
   height: 40px;
   width: 40px;
-  object-fit: contain;
-  filter: drop-shadow(0 0 8px rgba(247, 147, 26, 0.3));
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgba(247, 147, 26, 0.4);
+  box-shadow: 0 0 12px rgba(247, 147, 26, 0.2);
 }
 
 .nav-links {
@@ -226,9 +228,12 @@ a.btn-secondary:hover {
   height: 170px;
   margin-bottom: 2rem;
   animation: float 4s ease-in-out infinite;
-  filter: drop-shadow(0 8px 32px rgba(247, 147, 26, 0.25));
   position: relative;
   z-index: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(247, 147, 26, 0.5);
+  box-shadow: 0 0 40px rgba(247, 147, 26, 0.2), 0 8px 32px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes float {

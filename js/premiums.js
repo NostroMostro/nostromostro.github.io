@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       renderStats(data.stats);
       renderChart(data.daily);
+      renderPaymentMethods(data.payment_methods);
       renderUpdated(data.updated_at);
     })
     .catch(() => {
@@ -27,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const elPrice = document.getElementById('stat-price');
     elPrice.textContent = stats.last_btc_price
-      ? stats.last_btc_price.toLocaleString('es-ES') + ' EUR'
+      ? stats.last_btc_price.toLocaleString('es-ES') + ' €'
       : '--';
   }
 
@@ -38,6 +39,23 @@ document.addEventListener('DOMContentLoaded', () => {
     el.textContent = 'Actualizado: ' + d.toLocaleDateString('es-ES', {
       day: 'numeric', month: 'short', year: 'numeric',
       hour: '2-digit', minute: '2-digit'
+    });
+  }
+
+  function renderPaymentMethods(methods) {
+    const container = document.getElementById('payment-methods');
+    if (!container || !methods || methods.length === 0) return;
+
+    container.textContent = '';
+    methods.forEach(item => {
+      const tag = document.createElement('span');
+      tag.className = 'payment-tag';
+      tag.appendChild(document.createTextNode(item.method + ' '));
+      const count = document.createElement('span');
+      count.className = 'payment-count';
+      count.textContent = '(' + item.count + ')';
+      tag.appendChild(count);
+      container.appendChild(tag);
     });
   }
 

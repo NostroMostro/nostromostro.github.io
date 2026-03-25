@@ -188,13 +188,13 @@
     <div class="container">
       <h2 class="section-title">Metodos de pago</h2>
       <p class="section-subtitle">Los compradores y vendedores acuerdan libremente el metodo de pago. Estos son los mas habituales en España.</p>
-      <div class="payment-methods">
+      <div class="payment-methods" id="payment-methods">
         <span class="payment-tag">Bizum</span>
         <span class="payment-tag">Transferencia bancaria</span>
         <span class="payment-tag">Revolut</span>
-        <span class="payment-tag">PayPal</span>
         <span class="payment-tag">Wise</span>
         <span class="payment-tag">N26</span>
+        <span class="payment-tag">HalCash</span>
       </div>
       <p class="payment-note">Los metodos de pago se acuerdan entre las partes en cada operacion. No hay restricciones.</p>
     </div>
@@ -205,22 +205,25 @@
     <div class="container">
       <h2 class="section-title">Estado del mercado</h2>
       <p class="section-subtitle">Premiums de los ultimos intercambios realizados en NostroMostro.</p>
-      <div class="market-stats fade-in" id="market-stats">
-        <div class="stat-card">
-          <span class="stat-label">Premium medio 24h</span>
+      <div class="market-stats-row fade-in" id="market-stats">
+        <div class="stat-item">
+          <span class="stat-label">Premium 24h</span>
           <span class="stat-value" id="stat-24h">--</span>
         </div>
-        <div class="stat-card">
-          <span class="stat-label">Premium medio 7d</span>
+        <span class="stat-divider"></span>
+        <div class="stat-item">
+          <span class="stat-label">Premium 7d</span>
           <span class="stat-value" id="stat-7d">--</span>
         </div>
-        <div class="stat-card">
+        <span class="stat-divider"></span>
+        <div class="stat-item">
           <span class="stat-label">Trades 30d</span>
           <span class="stat-value" id="stat-trades">--</span>
         </div>
-        <div class="stat-card">
-          <span class="stat-label">BTC/EUR</span>
-          <span class="stat-value stat-value-price" id="stat-price">--</span>
+        <span class="stat-divider"></span>
+        <div class="stat-item">
+          <span class="stat-label">Precio medio de ayer</span>
+          <span class="stat-value" id="stat-price">--</span>
         </div>
       </div>
       <div class="chart-container fade-in">

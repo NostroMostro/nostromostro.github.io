@@ -43,19 +43,47 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderPaymentMethods(methods) {
-    const container = document.getElementById('payment-methods');
+    const container = document.getElementById('payment-ranking');
     if (!container || !methods || methods.length === 0) return;
 
-    container.textContent = '';
-    methods.forEach(item => {
-      const tag = document.createElement('span');
-      tag.className = 'payment-tag';
-      tag.appendChild(document.createTextNode(item.method + ' '));
-      const count = document.createElement('span');
-      count.className = 'payment-count';
-      count.textContent = '(' + item.count + ')';
-      tag.appendChild(count);
-      container.appendChild(tag);
+    var total = methods.reduce(function(sum, m) { return sum + m.count; }, 0);
+    if (total === 0) return;
+
+    var title = document.createElement('h3');
+    title.className = 'payment-ranking-title';
+    title.textContent = 'Métodos de pago más usados (30d)';
+    container.appendChild(title);
+
+    var maxCount = methods[0].count;
+
+    methods.forEach(function(item) {
+      var pct = Math.round((item.count / total) * 100);
+      var barWidth = Math.round((item.count / maxCount) * 100);
+
+      var row = document.createElement('div');
+      row.className = 'payment-bar-row';
+
+      var label = document.createElement('span');
+      label.className = 'payment-bar-label';
+      label.textContent = item.method;
+
+      var track = document.createElement('div');
+      track.className = 'payment-bar-track';
+
+      var fill = document.createElement('div');
+      fill.className = 'payment-bar-fill';
+      fill.style.width = barWidth + '%';
+
+      track.appendChild(fill);
+
+      var pctEl = document.createElement('span');
+      pctEl.className = 'payment-bar-pct';
+      pctEl.textContent = pct + '%';
+
+      row.appendChild(label);
+      row.appendChild(track);
+      row.appendChild(pctEl);
+      container.appendChild(row);
     });
   }
 

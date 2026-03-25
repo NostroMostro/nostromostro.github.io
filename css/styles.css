@@ -639,9 +639,78 @@ section {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
-.payment-count {
+/* ── PAYMENT RANKING (mercado) ── */
+.payment-ranking {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  margin-top: 1.5rem;
+}
+
+.payment-ranking-title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--text-secondary);
-  font-size: 0.8rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.01em;
+}
+
+.payment-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.payment-bar-row:last-child {
+  margin-bottom: 0;
+}
+
+.payment-bar-label {
+  flex-shrink: 0;
+  width: 160px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: right;
+}
+
+.payment-bar-track {
+  flex: 1;
+  height: 20px;
+  background: rgba(42, 37, 32, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.payment-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-orange), var(--accent-amber));
+  border-radius: 4px;
+  transition: width 0.6s ease;
+  min-width: 4px;
+}
+
+.payment-bar-pct {
+  flex-shrink: 0;
+  width: 40px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .payment-bar-label {
+    width: 100px;
+    font-size: 0.8rem;
+  }
+
+  .payment-ranking {
+    padding: 1.2rem 1rem;
+  }
 }
 
 .payment-note {

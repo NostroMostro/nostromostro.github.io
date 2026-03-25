@@ -1,0 +1,185 @@
+{
+  "updated_at": "2026-03-25T09:09:51Z",
+  "trades": [
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T20:47:30Z"
+    },
+    {
+      "premium": 6,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T20:14:08Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T19:43:54Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T18:01:27Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T17:59:06Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T17:52:52Z"
+    },
+    {
+      "premium": 6,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T17:49:48Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T16:54:23Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T16:33:56Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T16:08:46Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T12:19:52Z"
+    },
+    {
+      "premium": 2,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-24T08:27:59Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T23:20:37Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T22:47:28Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T21:55:40Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T21:45:47Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T17:46:35Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T17:34:55Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T16:21:57Z"
+    },
+    {
+      "premium": 2,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-23T08:29:41Z"
+    },
+    {
+      "premium": 8,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-21T14:21:09Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-21T11:06:28Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "CUP",
+      "timestamp": "2026-03-20T22:55:14Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-20T22:52:56Z"
+    },
+    {
+      "premium": 8,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-20T22:41:53Z"
+    },
+    {
+      "premium": 3,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-20T14:57:53Z"
+    },
+    {
+      "premium": 3,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-20T08:45:56Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-19T09:13:40Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "timestamp": "2026-03-19T01:28:20Z"
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-03-19",
+      "avg_premium": 2.5,
+      "trades": 2
+    },
+    {
+      "date": "2026-03-20",
+      "avg_premium": 2.8,
+      "trades": 5
+    },
+    {
+      "date": "2026-03-21",
+      "avg_premium": 4,
+      "trades": 2
+    },
+    {
+      "date": "2026-03-23",
+      "avg_premium": 0.5,
+      "trades": 8
+    },
+    {
+      "date": "2026-03-24",
+      "avg_premium": 1.3,
+      "trades": 12
+    }
+  ],
+  "stats": {
+    "avg_premium_24h": 1.3,
+    "avg_premium_7d": 1.6,
+    "avg_premium_30d": 1.6,
+    "trades_24h": 11,
+    "trades_7d": 29,
+    "trades_30d": 29
+  }
+}

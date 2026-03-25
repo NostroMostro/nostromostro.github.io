@@ -25,6 +25,7 @@
         <li><a href="#como-funciona">Como funciona</a></li>
         <li><a href="#conectar">Conectar</a></li>
         <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#mercado">Mercado</a></li>
         <li><a href="#seguridad">Seguridad</a></li>
         <li><a href="#comunidad">Comunidad</a></li>
       </ul>
@@ -199,6 +200,33 @@
     </div>
   </section>
 
+  <!-- MERCADO -->
+  <section id="mercado" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">Estado del mercado</h2>
+      <p class="section-subtitle">Premiums de los ultimos intercambios realizados en NostroMostro.</p>
+      <div class="market-stats fade-in" id="market-stats">
+        <div class="stat-card">
+          <span class="stat-label">Premium medio 24h</span>
+          <span class="stat-value" id="stat-24h">--</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Premium medio 7d</span>
+          <span class="stat-value" id="stat-7d">--</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Trades 30d</span>
+          <span class="stat-value" id="stat-trades">--</span>
+        </div>
+      </div>
+      <div class="chart-container fade-in">
+        <canvas id="premium-chart"></canvas>
+        <div class="chart-tooltip" id="chart-tooltip"></div>
+      </div>
+      <p class="market-updated" id="market-updated"></p>
+    </div>
+  </section>
+
   <!-- SEGURIDAD -->
   <section id="seguridad" style="background: var(--bg-secondary);">
     <div class="container">
@@ -307,5 +335,6 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/premiums.js"></script>
 </body>
 </html>

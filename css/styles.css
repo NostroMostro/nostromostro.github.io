@@ -646,6 +646,97 @@ section {
   font-style: italic;
 }
 
+/* ── MERCADO ── */
+.market-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+  transition: border-color 0.35s ease, transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.stat-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.stat-value {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-orange);
+  letter-spacing: -0.02em;
+  text-shadow: 0 0 20px rgba(247, 147, 26, 0.2);
+}
+
+.chart-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#premium-chart {
+  width: 100%;
+  height: 280px;
+  display: block;
+}
+
+.chart-tooltip {
+  display: none;
+  position: absolute;
+  background: rgba(10, 10, 10, 0.95);
+  border: 1px solid var(--accent-orange);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.8rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-primary);
+  pointer-events: none;
+  z-index: 10;
+  white-space: nowrap;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.market-updated {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .market-stats {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+    margin: 0 auto 2rem;
+  }
+
+  #premium-chart {
+    height: 200px;
+  }
+}
+
 /* ── SEGURIDAD ── */
 .tips-grid {
   display: grid;

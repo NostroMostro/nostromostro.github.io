@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T10:36:36Z",
+  "updated_at": "2026-03-25T10:40:37Z",
   "trades": [
     {
       "premium": 0,
@@ -215,7 +215,7 @@
     "trades_24h": 11,
     "trades_7d": 29,
     "trades_30d": 29,
-    "last_btc_price": 60350
+    "last_btc_price": 61075
   },
   "payment_methods": [
     {

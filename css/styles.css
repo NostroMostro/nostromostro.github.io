@@ -649,9 +649,13 @@ section {
 /* ── MERCADO ── */
 .market-stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.stat-value-price {
+  font-size: 1.5rem;
 }
 
 .stat-card {
@@ -727,8 +731,7 @@ section {
 
 @media (max-width: 768px) {
   .market-stats {
-    grid-template-columns: 1fr;
-    max-width: 300px;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto 2rem;
   }
 

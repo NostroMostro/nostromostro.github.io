@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
     el24h.textContent = stats.avg_premium_24h !== null ? stats.avg_premium_24h + '%' : '--';
     el7d.textContent = stats.avg_premium_7d !== null ? stats.avg_premium_7d + '%' : '--';
     elTrades.textContent = stats.trades_30d;
+
+    const elPrice = document.getElementById('stat-price');
+    elPrice.textContent = stats.last_btc_price
+      ? stats.last_btc_price.toLocaleString('es-ES') + ' EUR'
+      : '--';
   }
 
   function renderUpdated(ts) {

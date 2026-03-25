@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T10:17:40Z",
+  "updated_at": "2026-03-25T10:36:36Z",
   "trades": [
     {
       "premium": 0,
@@ -216,5 +216,39 @@
     "trades_7d": 29,
     "trades_30d": 29,
     "last_btc_price": 60350
-  }
+  },
+  "payment_methods": [
+    {
+      "method": "Bizum",
+      "count": 11
+    },
+    {
+      "method": "SEPA Instant",
+      "count": 9
+    },
+    {
+      "method": "Wise",
+      "count": 5
+    },
+    {
+      "method": "N26",
+      "count": 5
+    },
+    {
+      "method": "HalCash",
+      "count": 3
+    },
+    {
+      "method": "Revolut",
+      "count": 2
+    },
+    {
+      "method": "Otros",
+      "count": 2
+    },
+    {
+      "method": "Cash",
+      "count": 1
+    }
+  ]
 }

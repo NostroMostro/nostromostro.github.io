@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-03-25T11:13:00Z",
+  "updated_at": "2026-03-26T08:08:06Z",
   "trades": [
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 64219,
+      "timestamp": "2026-03-26T03:52:44Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 61633,
+      "timestamp": "2026-03-26T00:14:32Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 61690,
+      "timestamp": "2026-03-26T00:03:49Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 62267,
+      "timestamp": "2026-03-25T23:53:33Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 62344,
+      "timestamp": "2026-03-25T23:37:45Z"
+    },
     {
       "premium": 0,
       "fiat_code": "EUR",
@@ -206,37 +236,49 @@
       "avg_premium": 1.3,
       "avg_btc_price": 61075,
       "trades": 12
+    },
+    {
+      "date": "2026-03-25",
+      "avg_premium": 1,
+      "avg_btc_price": 62305,
+      "trades": 2
+    },
+    {
+      "date": "2026-03-26",
+      "avg_premium": 1.7,
+      "avg_btc_price": 62514,
+      "trades": 3
     }
   ],
   "stats": {
-    "avg_premium_24h": 1.3,
+    "avg_premium_24h": 1.4,
     "avg_premium_7d": 1.6,
     "avg_premium_30d": 1.6,
-    "trades_24h": 11,
-    "trades_7d": 29,
-    "trades_30d": 29,
-    "last_btc_price": 60643
+    "trades_24h": 5,
+    "trades_7d": 33,
+    "trades_30d": 34,
+    "last_btc_price": 62344
   },
   "payment_methods": [
     {
       "method": "Bizum",
-      "count": 11
+      "count": 12
     },
     {
       "method": "SEPA Instant",
       "count": 9
     },
     {
+      "method": "N26",
+      "count": 6
+    },
+    {
       "method": "Wise",
       "count": 5
     },
     {
-      "method": "N26",
-      "count": 5
-    },
-    {
       "method": "HalCash",
-      "count": 3
+      "count": 4
     },
     {
       "method": "Revolut",
@@ -245,6 +287,10 @@
     {
       "method": "Otros",
       "count": 2
+    },
+    {
+      "method": "Transferencia Bancaria",
+      "count": 1
     },
     {
       "method": "Cash",

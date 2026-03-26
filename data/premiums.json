@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-03-26T08:12:24Z",
+  "updated_at": "2026-03-26T23:00:01Z",
   "trades": [
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 62340,
+      "timestamp": "2026-03-26T18:43:34Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 60753,
+      "timestamp": "2026-03-26T10:47:10Z"
+    },
     {
       "premium": 5,
       "fiat_code": "EUR",
@@ -30,6 +42,12 @@
       "fiat_code": "EUR",
       "btc_price": 62344,
       "timestamp": "2026-03-25T23:37:45Z"
+    },
+    {
+      "premium": 3,
+      "fiat_code": "EUR",
+      "btc_price": 61690,
+      "timestamp": "2026-03-25T23:25:05Z"
     },
     {
       "premium": 0,
@@ -239,46 +257,50 @@
     },
     {
       "date": "2026-03-25",
-      "avg_premium": 1,
-      "avg_btc_price": 62305,
-      "trades": 2
+      "avg_premium": 1.7,
+      "avg_btc_price": 62100,
+      "trades": 3
     },
     {
       "date": "2026-03-26",
-      "avg_premium": 1.7,
-      "avg_btc_price": 62514,
-      "trades": 3
+      "avg_premium": 2.2,
+      "avg_btc_price": 62127,
+      "trades": 5
     }
   ],
   "stats": {
-    "avg_premium_24h": 1.4,
-    "avg_premium_7d": 1.6,
-    "avg_premium_30d": 1.6,
-    "trades_24h": 5,
-    "trades_7d": 33,
-    "trades_30d": 34,
-    "last_btc_price": 62344
+    "avg_premium_24h": 2,
+    "avg_premium_7d": 1.7,
+    "avg_premium_30d": 1.7,
+    "trades_24h": 8,
+    "trades_7d": 35,
+    "trades_30d": 37,
+    "last_btc_price": 62267
   },
   "payment_methods": [
     {
       "method": "Bizum",
-      "count": 12
+      "count": 14
     },
     {
       "method": "SEPA Instant",
-      "count": 9
+      "count": 10
     },
     {
       "method": "N26",
-      "count": 6
+      "count": 7
     },
     {
       "method": "Wise",
-      "count": 5
+      "count": 6
     },
     {
       "method": "HalCash",
-      "count": 4
+      "count": 5
+    },
+    {
+      "method": "Transferencia Bancaria",
+      "count": 2
     },
     {
       "method": "Revolut",
@@ -287,10 +309,6 @@
     {
       "method": "Otros",
       "count": 2
-    },
-    {
-      "method": "Transferencia Bancaria",
-      "count": 1
     },
     {
       "method": "Cash",

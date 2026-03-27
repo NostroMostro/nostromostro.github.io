@@ -1,11 +1,41 @@
 {
-  "updated_at": "2026-03-26T23:00:01Z",
+  "updated_at": "2026-03-27T20:24:31Z",
   "trades": [
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 57937,
+      "timestamp": "2026-03-27T19:41:27Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 58514,
+      "timestamp": "2026-03-27T11:31:21Z"
+    },
+    {
+      "premium": 7,
+      "fiat_code": "EUR",
+      "btc_price": 62129,
+      "timestamp": "2026-03-27T11:00:41Z"
+    },
+    {
+      "premium": 7,
+      "fiat_code": "EUR",
+      "btc_price": 62278,
+      "timestamp": "2026-03-27T10:59:33Z"
+    },
     {
       "premium": 5,
       "fiat_code": "EUR",
       "btc_price": 62340,
       "timestamp": "2026-03-26T18:43:34Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 60745,
+      "timestamp": "2026-03-26T13:28:03Z"
     },
     {
       "premium": 1,
@@ -263,19 +293,25 @@
     },
     {
       "date": "2026-03-26",
-      "avg_premium": 2.2,
-      "avg_btc_price": 62127,
-      "trades": 5
+      "avg_premium": 2.7,
+      "avg_btc_price": 61897,
+      "trades": 6
+    },
+    {
+      "date": "2026-03-27",
+      "avg_premium": 4,
+      "avg_btc_price": 60215,
+      "trades": 4
     }
   ],
   "stats": {
-    "avg_premium_24h": 2,
-    "avg_premium_7d": 1.7,
-    "avg_premium_30d": 1.7,
-    "trades_24h": 8,
-    "trades_7d": 35,
-    "trades_30d": 37,
-    "last_btc_price": 62267
+    "avg_premium_24h": 4,
+    "avg_premium_7d": 1.9,
+    "avg_premium_30d": 2,
+    "trades_24h": 4,
+    "trades_7d": 38,
+    "trades_30d": 42,
+    "last_btc_price": 61690
   },
   "payment_methods": [
     {
@@ -284,26 +320,26 @@
     },
     {
       "method": "SEPA Instant",
-      "count": 10
+      "count": 12
+    },
+    {
+      "method": "HalCash",
+      "count": 8
+    },
+    {
+      "method": "Wise",
+      "count": 7
     },
     {
       "method": "N26",
       "count": 7
     },
     {
-      "method": "Wise",
-      "count": 6
-    },
-    {
-      "method": "HalCash",
-      "count": 5
+      "method": "Revolut",
+      "count": 3
     },
     {
       "method": "Transferencia Bancaria",
-      "count": 2
-    },
-    {
-      "method": "Revolut",
       "count": 2
     },
     {

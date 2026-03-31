@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-03-30T22:00:02Z",
+  "updated_at": "2026-03-31T22:00:01Z",
   "trades": [
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 58617,
+      "timestamp": "2026-03-31T18:32:30Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 61752,
+      "timestamp": "2026-03-31T18:11:42Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 58548,
+      "timestamp": "2026-03-31T18:09:12Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 58445,
+      "timestamp": "2026-03-31T18:03:10Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 59032,
+      "timestamp": "2026-03-31T17:29:05Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 58309,
+      "timestamp": "2026-03-31T15:27:02Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 58038,
+      "timestamp": "2026-03-31T15:10:04Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 57971,
+      "timestamp": "2026-03-31T13:11:32Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 57971,
+      "timestamp": "2026-03-31T11:43:55Z"
+    },
     {
       "premium": 6,
       "fiat_code": "EUR",
@@ -488,16 +542,22 @@
       "avg_premium": 1.5,
       "avg_btc_price": 58830,
       "trades": 11
+    },
+    {
+      "date": "2026-03-31",
+      "avg_premium": 0.6,
+      "avg_btc_price": 58743,
+      "trades": 9
     }
   ],
   "stats": {
-    "avg_premium_24h": 1.5,
-    "avg_premium_7d": 1.8,
-    "avg_premium_30d": 1.8,
-    "trades_24h": 13,
-    "trades_7d": 56,
-    "trades_30d": 71,
-    "last_btc_price": 58207
+    "avg_premium_24h": 0.6,
+    "avg_premium_7d": 1.7,
+    "avg_premium_30d": 1.7,
+    "trades_24h": 9,
+    "trades_7d": 51,
+    "trades_30d": 80,
+    "last_btc_price": 58445
   },
   "payment_methods": [
     {
@@ -510,7 +570,7 @@
     },
     {
       "method": "HalCash",
-      "count": 14
+      "count": 16
     },
     {
       "method": "N26",

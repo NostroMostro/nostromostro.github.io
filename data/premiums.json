@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-04-09T22:00:01Z",
+  "updated_at": "2026-04-10T22:00:01Z",
   "trades": [
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 64835,
+      "timestamp": "2026-04-10T15:20:24Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 65114,
+      "timestamp": "2026-04-10T14:10:07Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 64557,
+      "timestamp": "2026-04-10T06:34:33Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 64599,
+      "timestamp": "2026-04-10T06:34:33Z"
+    },
     {
       "premium": 6,
       "fiat_code": "EUR",
@@ -890,29 +914,35 @@
       "avg_premium": 5,
       "avg_btc_price": 64478,
       "trades": 3
+    },
+    {
+      "date": "2026-04-10",
+      "avg_premium": 4.8,
+      "avg_btc_price": 64776,
+      "trades": 4
     }
   ],
   "stats": {
-    "avg_premium_24h": 5,
-    "avg_premium_7d": 2,
-    "avg_premium_30d": 1.8,
-    "trades_24h": 3,
-    "trades_7d": 46,
-    "trades_30d": 128,
-    "last_btc_price": 64111
+    "avg_premium_24h": 4.8,
+    "avg_premium_7d": 2.1,
+    "avg_premium_30d": 1.9,
+    "trades_24h": 4,
+    "trades_7d": 47,
+    "trades_30d": 132,
+    "last_btc_price": 64835
   },
   "payment_methods": [
     {
       "method": "HalCash",
-      "count": 40
+      "count": 44
     },
     {
       "method": "Bizum",
-      "count": 27
+      "count": 28
     },
     {
       "method": "SEPA Instant",
-      "count": 23
+      "count": 24
     },
     {
       "method": "N26",
@@ -920,23 +950,23 @@
     },
     {
       "method": "Wise",
-      "count": 8
+      "count": 9
     },
     {
       "method": "Otros",
-      "count": 4
+      "count": 5
     },
     {
       "method": "Revolut",
       "count": 3
     },
     {
-      "method": "Transferencia Bancaria",
-      "count": 2
+      "method": "Cash",
+      "count": 3
     },
     {
-      "method": "Cash",
-      "count": 1
+      "method": "Transferencia Bancaria",
+      "count": 2
     }
   ]
 }

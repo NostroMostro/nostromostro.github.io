@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T22:00:01Z",
+  "updated_at": "2026-04-19T22:00:01Z",
   "trades": [
     {
       "premium": 4,
@@ -858,26 +858,14 @@
       "fiat_code": "EUR",
       "btc_price": 66401,
       "timestamp": "2026-03-20T22:41:53Z"
-    },
-    {
-      "premium": 3,
-      "fiat_code": "EUR",
-      "btc_price": 62317,
-      "timestamp": "2026-03-20T14:57:53Z"
-    },
-    {
-      "premium": 3,
-      "fiat_code": "EUR",
-      "btc_price": 63078,
-      "timestamp": "2026-03-20T08:45:56Z"
     }
   ],
   "daily": [
     {
       "date": "2026-03-20",
-      "avg_premium": 2.8,
-      "avg_btc_price": 7338026,
-      "trades": 5
+      "avg_premium": 2.7,
+      "avg_btc_price": 12188245,
+      "trades": 3
     },
     {
       "date": "2026-03-21",
@@ -1032,11 +1020,11 @@
   ],
   "stats": {
     "avg_premium_24h": null,
-    "avg_premium_7d": 2.3,
-    "avg_premium_30d": 2,
+    "avg_premium_7d": 2.5,
+    "avg_premium_30d": 1.9,
     "trades_24h": 0,
-    "trades_7d": 13,
-    "trades_30d": 145,
+    "trades_7d": 10,
+    "trades_30d": 143,
     "last_btc_price": 64195
   },
   "payment_methods": [
@@ -1046,19 +1034,19 @@
     },
     {
       "method": "Bizum",
-      "count": 29
+      "count": 27
     },
     {
       "method": "SEPA Instant",
-      "count": 24
+      "count": 22
     },
     {
       "method": "N26",
-      "count": 16
+      "count": 15
     },
     {
       "method": "Wise",
-      "count": 11
+      "count": 10
     },
     {
       "method": "Otros",

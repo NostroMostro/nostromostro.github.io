@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-04-25T22:00:01Z",
+  "updated_at": "2026-04-26T22:00:01Z",
   "trades": [
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 69411,
+      "timestamp": "2026-04-26T06:10:22Z"
+    },
     {
       "premium": 4,
       "fiat_code": "EUR",
@@ -684,38 +690,14 @@
       "fiat_code": "EUR",
       "btc_price": 57937,
       "timestamp": "2026-03-27T22:38:56Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 57937,
-      "timestamp": "2026-03-27T19:41:27Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 58514,
-      "timestamp": "2026-03-27T11:31:21Z"
-    },
-    {
-      "premium": 7,
-      "fiat_code": "EUR",
-      "btc_price": 62129,
-      "timestamp": "2026-03-27T11:00:41Z"
-    },
-    {
-      "premium": 7,
-      "fiat_code": "EUR",
-      "btc_price": 62278,
-      "timestamp": "2026-03-27T10:59:33Z"
     }
   ],
   "daily": [
     {
       "date": "2026-03-27",
-      "avg_premium": 2.2,
-      "avg_btc_price": 58865,
-      "trades": 10
+      "avg_premium": 1,
+      "avg_btc_price": 57966,
+      "trades": 6
     },
     {
       "date": "2026-03-29",
@@ -860,29 +842,35 @@
       "avg_premium": 4.3,
       "avg_btc_price": 69358,
       "trades": 3
+    },
+    {
+      "date": "2026-04-26",
+      "avg_premium": 4,
+      "avg_btc_price": 69411,
+      "trades": 1
     }
   ],
   "stats": {
-    "avg_premium_24h": null,
-    "avg_premium_7d": 2.9,
-    "avg_premium_30d": 2.1,
-    "trades_24h": 0,
-    "trades_7d": 9,
-    "trades_30d": 118,
-    "last_btc_price": 69060
+    "avg_premium_24h": 4,
+    "avg_premium_7d": 3,
+    "avg_premium_30d": 2,
+    "trades_24h": 1,
+    "trades_7d": 10,
+    "trades_30d": 115,
+    "last_btc_price": 69411
   },
   "payment_methods": [
     {
       "method": "HalCash",
-      "count": 61
-    },
-    {
-      "method": "SEPA Instant",
-      "count": 17
+      "count": 62
     },
     {
       "method": "Bizum",
       "count": 16
+    },
+    {
+      "method": "SEPA Instant",
+      "count": 15
     },
     {
       "method": "Otros",
@@ -894,15 +882,11 @@
     },
     {
       "method": "Wise",
-      "count": 6
+      "count": 5
     },
     {
       "method": "Cash",
       "count": 2
-    },
-    {
-      "method": "Revolut",
-      "count": 1
     }
   ]
 }

@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-04-26T22:00:01Z",
+  "updated_at": "2026-04-27T22:00:01Z",
   "trades": [
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 69082,
+      "timestamp": "2026-04-27T11:34:26Z"
+    },
     {
       "premium": 4,
       "fiat_code": "EUR",
@@ -654,51 +660,9 @@
       "fiat_code": "EUR",
       "btc_price": 58514,
       "timestamp": "2026-03-29T13:38:56Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 58173,
-      "timestamp": "2026-03-27T23:48:15Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 57971,
-      "timestamp": "2026-03-27T22:56:45Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 57971,
-      "timestamp": "2026-03-27T22:53:36Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 57870,
-      "timestamp": "2026-03-27T22:42:12Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 57870,
-      "timestamp": "2026-03-27T22:40:33Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 57937,
-      "timestamp": "2026-03-27T22:38:56Z"
     }
   ],
   "daily": [
-    {
-      "date": "2026-03-27",
-      "avg_premium": 1,
-      "avg_btc_price": 57966,
-      "trades": 6
-    },
     {
       "date": "2026-03-29",
       "avg_premium": 1.9,
@@ -848,21 +812,27 @@
       "avg_premium": 4,
       "avg_btc_price": 69411,
       "trades": 1
+    },
+    {
+      "date": "2026-04-27",
+      "avg_premium": 4,
+      "avg_btc_price": 69082,
+      "trades": 1
     }
   ],
   "stats": {
     "avg_premium_24h": 4,
-    "avg_premium_7d": 3,
-    "avg_premium_30d": 2,
+    "avg_premium_7d": 3.4,
+    "avg_premium_30d": 2.1,
     "trades_24h": 1,
     "trades_7d": 10,
-    "trades_30d": 115,
-    "last_btc_price": 69411
+    "trades_30d": 110,
+    "last_btc_price": 69082
   },
   "payment_methods": [
     {
       "method": "HalCash",
-      "count": 62
+      "count": 64
     },
     {
       "method": "Bizum",

@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-05-04T22:00:01Z",
+  "updated_at": "2026-05-05T22:00:01Z",
   "trades": [
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 72455,
+      "timestamp": "2026-05-05T09:38:08Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 71933,
+      "timestamp": "2026-05-05T05:41:46Z"
+    },
     {
       "premium": 5,
       "fiat_code": "EUR",
@@ -342,117 +354,9 @@
       "fiat_code": "EUR",
       "btc_price": 59773,
       "timestamp": "2026-04-06T01:35:32Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58685,
-      "timestamp": "2026-04-05T21:12:00Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58685,
-      "timestamp": "2026-04-05T21:06:09Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58651,
-      "timestamp": "2026-04-05T20:46:19Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58582,
-      "timestamp": "2026-04-05T20:34:59Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58514,
-      "timestamp": "2026-04-05T20:07:07Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58445,
-      "timestamp": "2026-04-05T20:01:29Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58445,
-      "timestamp": "2026-04-05T19:59:59Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58445,
-      "timestamp": "2026-04-05T19:47:16Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58435,
-      "timestamp": "2026-04-05T19:46:23Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58582,
-      "timestamp": "2026-04-05T19:33:59Z"
-    },
-    {
-      "premium": 7,
-      "fiat_code": "EUR",
-      "btc_price": 62863,
-      "timestamp": "2026-04-05T16:59:08Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58173,
-      "timestamp": "2026-04-05T11:53:46Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58173,
-      "timestamp": "2026-04-05T11:45:16Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58173,
-      "timestamp": "2026-04-05T11:42:14Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58241,
-      "timestamp": "2026-04-05T11:27:48Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58241,
-      "timestamp": "2026-04-05T10:45:00Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 58207,
-      "timestamp": "2026-04-05T10:12:23Z"
     }
   ],
   "daily": [
-    {
-      "date": "2026-04-05",
-      "avg_premium": 0.4,
-      "avg_btc_price": 58679,
-      "trades": 17
-    },
     {
       "date": "2026-04-06",
       "avg_premium": 0.6,
@@ -578,41 +482,47 @@
       "avg_premium": 5,
       "avg_btc_price": 70269,
       "trades": 1
+    },
+    {
+      "date": "2026-05-05",
+      "avg_premium": 4,
+      "avg_btc_price": 72194,
+      "trades": 2
     }
   ],
   "stats": {
-    "avg_premium_24h": null,
-    "avg_premium_7d": 3,
-    "avg_premium_30d": 2.3,
-    "trades_24h": 0,
-    "trades_7d": 3,
-    "trades_30d": 74,
-    "last_btc_price": 70269
+    "avg_premium_24h": 4,
+    "avg_premium_7d": 3.3,
+    "avg_premium_30d": 2.9,
+    "trades_24h": 2,
+    "trades_7d": 4,
+    "trades_30d": 59,
+    "last_btc_price": 72455
   },
   "payment_methods": [
     {
       "method": "HalCash",
-      "count": 50
+      "count": 53
     },
     {
       "method": "SEPA Instant",
-      "count": 12
+      "count": 10
     },
     {
       "method": "Otros",
-      "count": 11
+      "count": 10
     },
     {
       "method": "Bizum",
-      "count": 11
+      "count": 9
     },
     {
       "method": "N26",
-      "count": 6
+      "count": 5
     },
     {
       "method": "Wise",
-      "count": 5
+      "count": 4
     },
     {
       "method": "Cash",

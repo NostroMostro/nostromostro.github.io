@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T22:00:01Z",
+  "updated_at": "2026-05-09T22:00:01Z",
   "trades": [
     {
       "premium": 4,
@@ -210,33 +210,9 @@
       "fiat_code": "EUR",
       "btc_price": 65302,
       "timestamp": "2026-04-10T06:34:33Z"
-    },
-    {
-      "premium": 6,
-      "fiat_code": "EUR",
-      "btc_price": 65911,
-      "timestamp": "2026-04-09T21:00:15Z"
-    },
-    {
-      "premium": 4,
-      "fiat_code": "EUR",
-      "btc_price": 63412,
-      "timestamp": "2026-04-09T07:58:55Z"
-    },
-    {
-      "premium": 5,
-      "fiat_code": "EUR",
-      "btc_price": 64111,
-      "timestamp": "2026-04-09T07:48:09Z"
     }
   ],
   "daily": [
-    {
-      "date": "2026-04-09",
-      "avg_premium": 5,
-      "avg_btc_price": 64478,
-      "trades": 3
-    },
     {
       "date": "2026-04-10",
       "avg_premium": 4.8,
@@ -349,16 +325,16 @@
   "stats": {
     "avg_premium_24h": null,
     "avg_premium_7d": 4,
-    "avg_premium_30d": 3.2,
+    "avg_premium_30d": 3.1,
     "trades_24h": 0,
     "trades_7d": 2,
-    "trades_30d": 38,
+    "trades_30d": 35,
     "last_btc_price": 72455
   },
   "payment_methods": [
     {
       "method": "HalCash",
-      "count": 42
+      "count": 38
     },
     {
       "method": "Otros",
@@ -366,10 +342,6 @@
     },
     {
       "method": "SEPA Instant",
-      "count": 6
-    },
-    {
-      "method": "Bizum",
       "count": 5
     },
     {
@@ -377,12 +349,12 @@
       "count": 4
     },
     {
-      "method": "Cash",
-      "count": 2
+      "method": "Bizum",
+      "count": 4
     },
     {
-      "method": "N26",
-      "count": 1
+      "method": "Cash",
+      "count": 2
     }
   ]
 }

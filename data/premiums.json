@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T22:00:01Z",
+  "updated_at": "2026-06-22T22:00:01Z",
   "trades": [
     {
       "premium": 4,
@@ -78,10 +78,10 @@
   ],
   "stats": {
     "avg_premium_24h": null,
-    "avg_premium_7d": 4,
+    "avg_premium_7d": null,
     "avg_premium_30d": 1.7,
     "trades_24h": 0,
-    "trades_7d": 1,
+    "trades_7d": 0,
     "trades_30d": 7,
     "last_btc_price": 59449
   },

@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-06-23T22:00:01Z",
+  "updated_at": "2026-06-24T22:00:02Z",
   "trades": [
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 55406,
+      "timestamp": "2026-06-24T13:18:52Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 54811,
+      "timestamp": "2026-06-24T13:18:52Z"
+    },
     {
       "premium": 4,
       "fiat_code": "EUR",
@@ -36,21 +48,9 @@
       "fiat_code": "EUR",
       "btc_price": 66050,
       "timestamp": "2026-05-26T06:57:31Z"
-    },
-    {
-      "premium": 4,
-      "fiat_code": "EUR",
-      "btc_price": 69120,
-      "timestamp": "2026-05-25T06:23:41Z"
     }
   ],
   "daily": [
-    {
-      "date": "2026-05-25",
-      "avg_premium": 4,
-      "avg_btc_price": 69120,
-      "trades": 1
-    },
     {
       "date": "2026-05-26",
       "avg_premium": 0,
@@ -74,21 +74,27 @@
       "avg_premium": 4,
       "avg_btc_price": 59449,
       "trades": 1
+    },
+    {
+      "date": "2026-06-24",
+      "avg_premium": 4,
+      "avg_btc_price": 55108,
+      "trades": 2
     }
   ],
   "stats": {
-    "avg_premium_24h": null,
-    "avg_premium_7d": null,
-    "avg_premium_30d": 1.7,
-    "trades_24h": 0,
-    "trades_7d": 0,
-    "trades_30d": 7,
-    "last_btc_price": 59449
+    "avg_premium_24h": 4,
+    "avg_premium_7d": 4,
+    "avg_premium_30d": 2,
+    "trades_24h": 2,
+    "trades_7d": 2,
+    "trades_30d": 8,
+    "last_btc_price": 55406
   },
   "payment_methods": [
     {
       "method": "HalCash",
-      "count": 5
+      "count": 7
     },
     {
       "method": "Otros",

@@ -1,38 +1,15 @@
 {
-  "updated_at": "2026-07-26T22:00:01Z",
-  "trades": [
-    {
-      "premium": 3,
-      "fiat_code": "EUR",
-      "btc_price": 54644,
-      "timestamp": "2026-06-27T07:13:27Z"
-    }
-  ],
-  "daily": [
-    {
-      "date": "2026-06-27",
-      "avg_premium": 3,
-      "avg_btc_price": 54644,
-      "trades": 1
-    }
-  ],
+  "updated_at": "2026-07-27T22:00:01Z",
+  "trades": [],
+  "daily": [],
   "stats": {
     "avg_premium_24h": null,
     "avg_premium_7d": null,
-    "avg_premium_30d": 3,
+    "avg_premium_30d": null,
     "trades_24h": 0,
     "trades_7d": 0,
-    "trades_30d": 1,
+    "trades_30d": 0,
     "last_btc_price": 54644
   },
-  "payment_methods": [
-    {
-      "method": "Wise",
-      "count": 1
-    },
-    {
-      "method": "SEPA Instant",
-      "count": 1
-    }
-  ]
+  "payment_methods": []
 }

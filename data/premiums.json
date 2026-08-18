@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-08-17T22:00:01Z",
+  "updated_at": "2026-08-18T22:00:01Z",
   "trades": [
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 58135,
+      "timestamp": "2026-08-18T15:35:21Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 58115,
+      "timestamp": "2026-08-18T14:05:08Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 57690,
+      "timestamp": "2026-08-18T13:22:08Z"
+    },
+    {
+      "premium": 3,
+      "fiat_code": "EUR",
+      "btc_price": 57177,
+      "timestamp": "2026-08-18T08:27:01Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 58380,
+      "timestamp": "2026-08-18T07:23:28Z"
+    },
+    {
+      "premium": 3,
+      "fiat_code": "EUR",
+      "btc_price": 57171,
+      "timestamp": "2026-08-18T06:30:35Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 55288,
+      "timestamp": "2026-08-17T18:12:19Z"
+    },
     {
       "premium": 0,
       "fiat_code": "EUR",
@@ -942,43 +984,49 @@
     {
       "date": "2026-08-17",
       "avg_premium": 0.7,
-      "avg_btc_price": 56008,
-      "trades": 19
+      "avg_btc_price": 55972,
+      "trades": 20
+    },
+    {
+      "date": "2026-08-18",
+      "avg_premium": 3.8,
+      "avg_btc_price": 57778,
+      "trades": 6
     }
   ],
   "stats": {
-    "avg_premium_24h": 0.7,
-    "avg_premium_7d": 2,
-    "avg_premium_30d": 2,
-    "trades_24h": 19,
-    "trades_7d": 146,
-    "trades_30d": 149,
-    "last_btc_price": 55218
+    "avg_premium_24h": 3.8,
+    "avg_premium_7d": 2.2,
+    "avg_premium_30d": 2.1,
+    "trades_24h": 6,
+    "trades_7d": 124,
+    "trades_30d": 156,
+    "last_btc_price": 58115
   },
   "payment_methods": [
     {
       "method": "SEPA Instant",
-      "count": 70
+      "count": 72
     },
     {
       "method": "Bizum",
-      "count": 52
+      "count": 55
     },
     {
       "method": "HalCash",
-      "count": 40
+      "count": 42
+    },
+    {
+      "method": "Wise",
+      "count": 38
     },
     {
       "method": "Revolut",
       "count": 37
     },
     {
-      "method": "Wise",
-      "count": 35
-    },
-    {
       "method": "Otros",
-      "count": 20
+      "count": 22
     },
     {
       "method": "Transferencia Bancaria",

@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-08-18T22:00:01Z",
+  "updated_at": "2026-08-19T22:00:01Z",
   "trades": [
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 61775,
+      "timestamp": "2026-08-19T16:21:58Z"
+    },
+    {
+      "premium": 3,
+      "fiat_code": "EUR",
+      "btc_price": 60501,
+      "timestamp": "2026-08-19T15:36:14Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 60672,
+      "timestamp": "2026-08-19T14:00:09Z"
+    },
+    {
+      "premium": 2,
+      "fiat_code": "EUR",
+      "btc_price": 56629,
+      "timestamp": "2026-08-19T10:39:35Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 58649,
+      "timestamp": "2026-08-19T09:50:00Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 60991,
+      "timestamp": "2026-08-19T09:19:54Z"
+    },
     {
       "premium": 4,
       "fiat_code": "EUR",
@@ -992,33 +1028,39 @@
       "avg_premium": 3.8,
       "avg_btc_price": 57778,
       "trades": 6
+    },
+    {
+      "date": "2026-08-19",
+      "avg_premium": 3.3,
+      "avg_btc_price": 59869,
+      "trades": 6
     }
   ],
   "stats": {
-    "avg_premium_24h": 3.8,
-    "avg_premium_7d": 2.2,
+    "avg_premium_24h": 3.3,
+    "avg_premium_7d": 2.4,
     "avg_premium_30d": 2.1,
     "trades_24h": 6,
-    "trades_7d": 124,
-    "trades_30d": 156,
-    "last_btc_price": 58115
+    "trades_7d": 107,
+    "trades_30d": 162,
+    "last_btc_price": 60672
   },
   "payment_methods": [
     {
       "method": "SEPA Instant",
-      "count": 72
+      "count": 74
     },
     {
       "method": "Bizum",
-      "count": 55
+      "count": 58
     },
     {
       "method": "HalCash",
-      "count": 42
+      "count": 43
     },
     {
       "method": "Wise",
-      "count": 38
+      "count": 41
     },
     {
       "method": "Revolut",
@@ -1026,7 +1068,7 @@
     },
     {
       "method": "Otros",
-      "count": 22
+      "count": 24
     },
     {
       "method": "Transferencia Bancaria",

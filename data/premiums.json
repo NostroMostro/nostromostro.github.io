@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-08-28T22:00:01Z",
+  "updated_at": "2026-08-29T22:00:01Z",
   "trades": [
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 70192,
+      "timestamp": "2026-08-29T20:22:13Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 70525,
+      "timestamp": "2026-08-29T06:32:12Z"
+    },
     {
       "premium": 0,
       "fiat_code": "EUR",
@@ -1556,16 +1568,22 @@
       "avg_premium": 2.6,
       "avg_btc_price": 69630,
       "trades": 8
+    },
+    {
+      "date": "2026-08-29",
+      "avg_premium": 4.5,
+      "avg_btc_price": 70359,
+      "trades": 2
     }
   ],
   "stats": {
-    "avg_premium_24h": 2.6,
-    "avg_premium_7d": 1,
+    "avg_premium_24h": 4.5,
+    "avg_premium_7d": 1.1,
     "avg_premium_30d": 1.8,
-    "trades_24h": 8,
-    "trades_7d": 62,
-    "trades_30d": 240,
-    "last_btc_price": 69477
+    "trades_24h": 2,
+    "trades_7d": 59,
+    "trades_30d": 242,
+    "last_btc_price": 70525
   },
   "payment_methods": [
     {
@@ -1574,14 +1592,14 @@
     },
     {
       "method": "Bizum",
-      "count": 74
-    },
-    {
-      "method": "Wise",
-      "count": 55
+      "count": 75
     },
     {
       "method": "HalCash",
+      "count": 57
+    },
+    {
+      "method": "Wise",
       "count": 55
     },
     {
@@ -1590,7 +1608,7 @@
     },
     {
       "method": "Otros",
-      "count": 44
+      "count": 46
     },
     {
       "method": "Payoneer",

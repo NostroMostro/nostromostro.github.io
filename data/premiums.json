@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-09-02T22:00:01Z",
+  "updated_at": "2026-09-03T22:00:01Z",
   "trades": [
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68989,
+      "timestamp": "2026-09-03T18:50:21Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 69061,
+      "timestamp": "2026-09-03T18:02:34Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 69156,
+      "timestamp": "2026-09-03T18:02:34Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 69013,
+      "timestamp": "2026-09-03T18:00:32Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 69061,
+      "timestamp": "2026-09-03T18:00:32Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68871,
+      "timestamp": "2026-09-03T15:07:16Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 67705,
+      "timestamp": "2026-09-03T14:15:45Z"
+    },
+    {
+      "premium": 2,
+      "fiat_code": "EUR",
+      "btc_price": 68863,
+      "timestamp": "2026-09-03T12:28:39Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 70000,
+      "timestamp": "2026-09-03T07:33:08Z"
+    },
     {
       "premium": 0,
       "fiat_code": "EUR",
@@ -1814,16 +1868,22 @@
       "avg_premium": 1.8,
       "avg_btc_price": 67810,
       "trades": 5
+    },
+    {
+      "date": "2026-09-03",
+      "avg_premium": 0.2,
+      "avg_btc_price": 68969,
+      "trades": 9
     }
   ],
   "stats": {
-    "avg_premium_24h": 1.8,
-    "avg_premium_7d": 1.2,
+    "avg_premium_24h": 0.2,
+    "avg_premium_7d": 0.9,
     "avg_premium_30d": 1.6,
-    "trades_24h": 5,
-    "trades_7d": 61,
-    "trades_30d": 278,
-    "last_btc_price": 66889
+    "trades_24h": 9,
+    "trades_7d": 55,
+    "trades_30d": 287,
+    "last_btc_price": 69013
   },
   "payment_methods": [
     {
@@ -1832,7 +1892,7 @@
     },
     {
       "method": "Bizum",
-      "count": 82
+      "count": 84
     },
     {
       "method": "Revolut",
@@ -1848,7 +1908,7 @@
     },
     {
       "method": "HalCash",
-      "count": 59
+      "count": 60
     },
     {
       "method": "Payoneer",

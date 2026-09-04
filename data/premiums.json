@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-09-03T22:00:01Z",
+  "updated_at": "2026-09-04T22:00:01Z",
   "trades": [
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 68955,
+      "timestamp": "2026-09-04T20:47:48Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68233,
+      "timestamp": "2026-09-04T19:47:53Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 71483,
+      "timestamp": "2026-09-04T15:02:18Z"
+    },
+    {
+      "premium": 2,
+      "fiat_code": "EUR",
+      "btc_price": 71241,
+      "timestamp": "2026-09-04T11:16:01Z"
+    },
+    {
+      "premium": 2,
+      "fiat_code": "EUR",
+      "btc_price": 71331,
+      "timestamp": "2026-09-04T11:00:14Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 72722,
+      "timestamp": "2026-09-04T09:40:13Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 72624,
+      "timestamp": "2026-09-04T09:40:13Z"
+    },
     {
       "premium": 0,
       "fiat_code": "EUR",
@@ -1874,25 +1916,31 @@
       "avg_premium": 0.2,
       "avg_btc_price": 68969,
       "trades": 9
+    },
+    {
+      "date": "2026-09-04",
+      "avg_premium": 1.9,
+      "avg_btc_price": 70941,
+      "trades": 7
     }
   ],
   "stats": {
-    "avg_premium_24h": 0.2,
-    "avg_premium_7d": 0.9,
+    "avg_premium_24h": 1.9,
+    "avg_premium_7d": 0.7,
     "avg_premium_30d": 1.6,
-    "trades_24h": 9,
-    "trades_7d": 55,
-    "trades_30d": 287,
-    "last_btc_price": 69013
+    "trades_24h": 7,
+    "trades_7d": 54,
+    "trades_30d": 294,
+    "last_btc_price": 71331
   },
   "payment_methods": [
     {
       "method": "SEPA Instant",
-      "count": 97
+      "count": 100
     },
     {
       "method": "Bizum",
-      "count": 84
+      "count": 88
     },
     {
       "method": "Revolut",
@@ -1900,15 +1948,15 @@
     },
     {
       "method": "Wise",
-      "count": 66
+      "count": 67
     },
     {
       "method": "Otros",
-      "count": 61
+      "count": 65
     },
     {
       "method": "HalCash",
-      "count": 60
+      "count": 62
     },
     {
       "method": "Payoneer",

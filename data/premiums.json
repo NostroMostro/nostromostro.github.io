@@ -1,10 +1,52 @@
 {
-  "updated_at": "2026-09-04T22:00:01Z",
+  "updated_at": "2026-09-05T22:00:01Z",
   "trades": [
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68662,
+      "timestamp": "2026-09-05T17:41:20Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 76494,
+      "timestamp": "2026-09-05T16:38:29Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68645,
+      "timestamp": "2026-09-05T14:44:40Z"
+    },
+    {
+      "premium": -1,
+      "fiat_code": "EUR",
+      "btc_price": 67901,
+      "timestamp": "2026-09-05T11:03:13Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68552,
+      "timestamp": "2026-09-05T10:22:51Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68569,
+      "timestamp": "2026-09-05T09:14:46Z"
+    },
     {
       "premium": 1,
       "fiat_code": "EUR",
       "btc_price": 68955,
+      "timestamp": "2026-09-04T20:47:48Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 69313,
       "timestamp": "2026-09-04T20:47:48Z"
     },
     {
@@ -1919,28 +1961,38 @@
     },
     {
       "date": "2026-09-04",
-      "avg_premium": 1.9,
-      "avg_btc_price": 70941,
-      "trades": 7
+      "avg_premium": 1.8,
+      "avg_btc_price": 70738,
+      "trades": 8
+    },
+    {
+      "date": "2026-09-05",
+      "avg_premium": -0.2,
+      "avg_btc_price": 69804,
+      "trades": 6
     }
   ],
   "stats": {
-    "avg_premium_24h": 1.9,
-    "avg_premium_7d": 0.7,
+    "avg_premium_24h": -0.2,
+    "avg_premium_7d": 0.5,
     "avg_premium_30d": 1.6,
-    "trades_24h": 7,
-    "trades_7d": 54,
-    "trades_30d": 294,
-    "last_btc_price": 71331
+    "trades_24h": 6,
+    "trades_7d": 59,
+    "trades_30d": 301,
+    "last_btc_price": 68645
   },
   "payment_methods": [
     {
       "method": "SEPA Instant",
-      "count": 100
+      "count": 102
     },
     {
       "method": "Bizum",
-      "count": 88
+      "count": 90
+    },
+    {
+      "method": "Otros",
+      "count": 71
     },
     {
       "method": "Revolut",
@@ -1951,12 +2003,8 @@
       "count": 67
     },
     {
-      "method": "Otros",
-      "count": 65
-    },
-    {
       "method": "HalCash",
-      "count": 62
+      "count": 64
     },
     {
       "method": "Payoneer",

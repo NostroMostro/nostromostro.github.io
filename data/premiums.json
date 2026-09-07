@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-09-06T22:00:02Z",
+  "updated_at": "2026-09-07T22:00:01Z",
   "trades": [
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68356,
+      "timestamp": "2026-09-07T19:48:39Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68233,
+      "timestamp": "2026-09-07T17:39:41Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68179,
+      "timestamp": "2026-09-07T17:09:14Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68392,
+      "timestamp": "2026-09-07T10:21:12Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68421,
+      "timestamp": "2026-09-07T09:02:18Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68385,
+      "timestamp": "2026-09-07T05:58:38Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 68395,
+      "timestamp": "2026-09-07T05:58:38Z"
+    },
     {
       "premium": 5,
       "fiat_code": "EUR",
@@ -2006,33 +2048,39 @@
       "avg_premium": 2.8,
       "avg_btc_price": 73431,
       "trades": 4
+    },
+    {
+      "date": "2026-09-07",
+      "avg_premium": 0,
+      "avg_btc_price": 68337,
+      "trades": 7
     }
   ],
   "stats": {
-    "avg_premium_24h": 2.8,
-    "avg_premium_7d": 0.8,
+    "avg_premium_24h": 0,
+    "avg_premium_7d": 0.9,
     "avg_premium_30d": 1.6,
-    "trades_24h": 4,
-    "trades_7d": 58,
-    "trades_30d": 306,
-    "last_btc_price": 72419
+    "trades_24h": 7,
+    "trades_7d": 48,
+    "trades_30d": 313,
+    "last_btc_price": 68385
   },
   "payment_methods": [
     {
       "method": "SEPA Instant",
-      "count": 105
+      "count": 108
     },
     {
       "method": "Bizum",
-      "count": 93
+      "count": 96
     },
     {
       "method": "Otros",
-      "count": 73
+      "count": 77
     },
     {
       "method": "Revolut",
-      "count": 68
+      "count": 69
     },
     {
       "method": "Wise",

@@ -1,6 +1,54 @@
 {
-  "updated_at": "2026-10-07T22:00:01Z",
+  "updated_at": "2026-10-08T22:00:01Z",
   "trades": [
+    {
+      "premium": 7,
+      "fiat_code": "EUR",
+      "btc_price": 78224,
+      "timestamp": "2026-10-08T18:22:53Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 72543,
+      "timestamp": "2026-10-08T16:01:52Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 76312,
+      "timestamp": "2026-10-08T15:44:36Z"
+    },
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 73653,
+      "timestamp": "2026-10-08T15:10:13Z"
+    },
+    {
+      "premium": 7,
+      "fiat_code": "EUR",
+      "btc_price": 79054,
+      "timestamp": "2026-10-08T14:22:13Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 77049,
+      "timestamp": "2026-10-08T10:54:24Z"
+    },
+    {
+      "premium": 3,
+      "fiat_code": "EUR",
+      "btc_price": 76357,
+      "timestamp": "2026-10-08T07:46:02Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 74223,
+      "timestamp": "2026-10-08T06:33:14Z"
+    },
     {
       "premium": 3,
       "fiat_code": "EUR",
@@ -1272,81 +1320,9 @@
       "fiat_code": "EUR",
       "btc_price": 69212,
       "timestamp": "2026-09-09T05:42:08Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 67673,
-      "timestamp": "2026-09-08T17:30:07Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 68050,
-      "timestamp": "2026-09-08T16:25:15Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 67501,
-      "timestamp": "2026-09-08T12:12:28Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 77922,
-      "timestamp": "2026-09-08T11:28:02Z"
-    },
-    {
-      "premium": 5,
-      "fiat_code": "EUR",
-      "btc_price": 71072,
-      "timestamp": "2026-09-08T10:09:54Z"
-    },
-    {
-      "premium": 2,
-      "fiat_code": "EUR",
-      "btc_price": 69032,
-      "timestamp": "2026-09-08T08:41:41Z"
-    },
-    {
-      "premium": 4,
-      "fiat_code": "EUR",
-      "btc_price": 70398,
-      "timestamp": "2026-09-08T06:53:56Z"
-    },
-    {
-      "premium": 3,
-      "fiat_code": "EUR",
-      "btc_price": 69715,
-      "timestamp": "2026-09-08T06:49:35Z"
-    },
-    {
-      "premium": 2,
-      "fiat_code": "EUR",
-      "btc_price": 69044,
-      "timestamp": "2026-09-08T06:47:22Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 67663,
-      "timestamp": "2026-09-08T06:02:12Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 67574,
-      "timestamp": "2026-09-08T05:45:52Z"
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-08",
-      "avg_premium": 1.5,
-      "avg_btc_price": 69604,
-      "trades": 11
-    },
     {
       "date": "2026-09-09",
       "avg_premium": 1.3,
@@ -1520,25 +1496,31 @@
       "avg_premium": 1.3,
       "avg_btc_price": 75903,
       "trades": 6
+    },
+    {
+      "date": "2026-10-08",
+      "avg_premium": 3.4,
+      "avg_btc_price": 75927,
+      "trades": 8
     }
   ],
   "stats": {
-    "avg_premium_24h": 1.3,
-    "avg_premium_7d": 1.7,
-    "avg_premium_30d": 1.6,
-    "trades_24h": 6,
-    "trades_7d": 69,
-    "trades_30d": 223,
-    "last_btc_price": 75697
+    "avg_premium_24h": 3.4,
+    "avg_premium_7d": 1.8,
+    "avg_premium_30d": 1.7,
+    "trades_24h": 8,
+    "trades_7d": 63,
+    "trades_30d": 220,
+    "last_btc_price": 76357
   },
   "payment_methods": [
     {
       "method": "Otros",
-      "count": 110
+      "count": 108
     },
     {
       "method": "Bizum",
-      "count": 84
+      "count": 81
     },
     {
       "method": "SEPA Instant",
@@ -1546,11 +1528,11 @@
     },
     {
       "method": "HalCash",
-      "count": 65
+      "count": 64
     },
     {
       "method": "Revolut",
-      "count": 52
+      "count": 50
     },
     {
       "method": "Wise",

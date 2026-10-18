@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-17T22:00:01Z",
+  "updated_at": "2026-10-18T22:00:01Z",
   "trades": [
+    {
+      "premium": 1,
+      "fiat_code": "EUR",
+      "btc_price": 73212,
+      "timestamp": "2026-10-18T14:11:30Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 72947,
+      "timestamp": "2026-10-18T11:20:39Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 72974,
+      "timestamp": "2026-10-18T11:09:58Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 72706,
+      "timestamp": "2026-10-18T08:53:01Z"
+    },
+    {
+      "premium": 2,
+      "fiat_code": "EUR",
+      "btc_price": 74180,
+      "timestamp": "2026-10-18T07:30:43Z"
+    },
+    {
+      "premium": 0,
+      "fiat_code": "EUR",
+      "btc_price": 72693,
+      "timestamp": "2026-10-17T21:12:42Z"
+    },
     {
       "premium": 4,
       "fiat_code": "EUR",
@@ -42,6 +78,12 @@
       "fiat_code": "EUR",
       "btc_price": 72529,
       "timestamp": "2026-10-17T07:12:01Z"
+    },
+    {
+      "premium": 5,
+      "fiat_code": "EUR",
+      "btc_price": 76629,
+      "timestamp": "2026-10-16T16:37:19Z"
     },
     {
       "premium": 0,
@@ -1344,111 +1386,9 @@
       "fiat_code": "EUR",
       "btc_price": 77077,
       "timestamp": "2026-09-19T05:46:19Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 69810,
-      "timestamp": "2026-09-18T21:50:05Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 69747,
-      "timestamp": "2026-09-18T19:27:07Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 69604,
-      "timestamp": "2026-09-18T15:43:54Z"
-    },
-    {
-      "premium": 2,
-      "fiat_code": "EUR",
-      "btc_price": 70950,
-      "timestamp": "2026-09-18T15:39:58Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 70519,
-      "timestamp": "2026-09-18T15:36:59Z"
-    },
-    {
-      "premium": 3,
-      "fiat_code": "EUR",
-      "btc_price": 71608,
-      "timestamp": "2026-09-18T15:34:57Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 70444,
-      "timestamp": "2026-09-18T15:10:46Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 70347,
-      "timestamp": "2026-09-18T14:44:39Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 69609,
-      "timestamp": "2026-09-18T14:04:19Z"
-    },
-    {
-      "premium": 2,
-      "fiat_code": "EUR",
-      "btc_price": 69271,
-      "timestamp": "2026-09-18T12:35:46Z"
-    },
-    {
-      "premium": 2,
-      "fiat_code": "EUR",
-      "btc_price": 69197,
-      "timestamp": "2026-09-18T12:35:46Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 69008,
-      "timestamp": "2026-09-18T09:01:03Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 69577,
-      "timestamp": "2026-09-18T09:01:03Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 68481,
-      "timestamp": "2026-09-18T08:03:06Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 68250,
-      "timestamp": "2026-09-18T07:41:08Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 98536,
-      "timestamp": "2026-09-18T05:43:20Z"
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-18",
-      "avg_premium": 0.9,
-      "avg_btc_price": 71560,
-      "trades": 16
-    },
     {
       "date": "2026-09-19",
       "avg_premium": 2.8,
@@ -1613,50 +1553,56 @@
     },
     {
       "date": "2026-10-16",
-      "avg_premium": 1.6,
-      "avg_btc_price": 75627,
-      "trades": 5
+      "avg_premium": 2.2,
+      "avg_btc_price": 75794,
+      "trades": 6
     },
     {
       "date": "2026-10-17",
-      "avg_premium": 1.1,
-      "avg_btc_price": 73426,
-      "trades": 7
+      "avg_premium": 1,
+      "avg_btc_price": 73334,
+      "trades": 8
+    },
+    {
+      "date": "2026-10-18",
+      "avg_premium": 0.6,
+      "avg_btc_price": 73204,
+      "trades": 5
     }
   ],
   "stats": {
-    "avg_premium_24h": 1.1,
-    "avg_premium_7d": 0.7,
+    "avg_premium_24h": 0.6,
+    "avg_premium_7d": 1,
     "avg_premium_30d": 1.3,
-    "trades_24h": 7,
-    "trades_7d": 52,
-    "trades_30d": 240,
-    "last_btc_price": 72585
+    "trades_24h": 5,
+    "trades_7d": 53,
+    "trades_30d": 231,
+    "last_btc_price": 72974
   },
   "payment_methods": [
     {
       "method": "Otros",
-      "count": 159
-    },
-    {
-      "method": "Bizum",
-      "count": 80
+      "count": 158
     },
     {
       "method": "SEPA Instant",
       "count": 78
     },
     {
+      "method": "Bizum",
+      "count": 78
+    },
+    {
       "method": "HalCash",
-      "count": 67
+      "count": 64
     },
     {
       "method": "Revolut",
-      "count": 61
+      "count": 62
     },
     {
       "method": "Wise",
-      "count": 35
+      "count": 31
     },
     {
       "method": "Transferencia Bancaria",

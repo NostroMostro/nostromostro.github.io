@@ -23,20 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Copy npub to clipboard
-  const copyBtn = document.getElementById('copy-npub');
-  const npubText = document.getElementById('npub-text');
-
-  copyBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText(npubText.textContent.trim()).then(() => {
-      const original = copyBtn.textContent;
-      copyBtn.textContent = 'Copiado!';
-      setTimeout(() => {
-        copyBtn.textContent = original;
-      }, 2000);
-    });
-  });
-
   // Active nav link on scroll
   const sections = document.querySelectorAll('section[id]');
 

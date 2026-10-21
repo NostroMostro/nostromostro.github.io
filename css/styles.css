@@ -499,47 +499,6 @@ section {
   font-weight: 600;
 }
 
-.npub-container {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  padding: 1rem 1.2rem;
-  margin-bottom: 1.8rem;
-}
-
-.npub-text {
-  flex: 1;
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  color: var(--accent-orange);
-  word-break: break-all;
-  text-align: left;
-  user-select: all;
-  text-shadow: 0 0 12px rgba(247, 147, 26, 0.15);
-}
-
-.btn-copy {
-  background: var(--accent-orange);
-  color: #0a0a0a;
-  border: none;
-  border-radius: 8px;
-  padding: 0.55rem 1.1rem;
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.25s ease, box-shadow 0.25s ease;
-}
-
-.btn-copy:hover {
-  background: var(--accent-orange-hover);
-  box-shadow: 0 0 16px rgba(247, 147, 26, 0.3);
-}
-
 .connect-instructions {
   color: var(--text-secondary);
   font-size: 0.93rem;
@@ -550,6 +509,16 @@ section {
   text-align: left;
   display: inline-block;
   padding-left: 1.2rem;
+}
+
+.connect-instructions a {
+  color: var(--accent-orange);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(247, 147, 26, 0.4);
+}
+
+.connect-instructions a:hover {
+  border-bottom-color: var(--accent-orange);
 }
 
 /* ── CLIENTES ── */
@@ -801,6 +770,49 @@ section {
   color: var(--text-secondary);
   font-size: 0.8rem;
   font-style: italic;
+}
+
+.market-refs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2.2rem;
+}
+
+.market-refs a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.85rem 1.4rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.market-refs a:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-orange);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--glow-orange);
+}
+
+.market-refs svg {
+  flex-shrink: 0;
+  color: var(--accent-orange);
+}
+
+@media (max-width: 768px) {
+  .market-refs a {
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+  }
 }
 
 @media (max-width: 768px) {

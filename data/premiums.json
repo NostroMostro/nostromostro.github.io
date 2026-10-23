@@ -1,6 +1,18 @@
 {
-  "updated_at": "2026-10-22T22:00:01Z",
+  "updated_at": "2026-10-23T22:00:01Z",
   "trades": [
+    {
+      "premium": 7,
+      "fiat_code": "EUR",
+      "btc_price": 78461,
+      "timestamp": "2026-10-23T13:18:45Z"
+    },
+    {
+      "premium": 4,
+      "fiat_code": "EUR",
+      "btc_price": 75863,
+      "timestamp": "2026-10-23T07:18:23Z"
+    },
     {
       "premium": 6,
       "fiat_code": "EUR",
@@ -1398,33 +1410,9 @@
       "fiat_code": "EUR",
       "btc_price": 74243,
       "timestamp": "2026-09-24T10:45:07Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 74329,
-      "timestamp": "2026-09-23T15:57:41Z"
-    },
-    {
-      "premium": 0,
-      "fiat_code": "EUR",
-      "btc_price": 75319,
-      "timestamp": "2026-09-23T08:04:15Z"
-    },
-    {
-      "premium": 1,
-      "fiat_code": "EUR",
-      "btc_price": 76292,
-      "timestamp": "2026-09-23T07:49:59Z"
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-23",
-      "avg_premium": 0.3,
-      "avg_btc_price": 75313,
-      "trades": 3
-    },
     {
       "date": "2026-09-24",
       "avg_premium": 3.2,
@@ -1598,21 +1586,27 @@
       "avg_premium": 3.8,
       "avg_btc_price": 75928,
       "trades": 6
+    },
+    {
+      "date": "2026-10-23",
+      "avg_premium": 5.5,
+      "avg_btc_price": 77162,
+      "trades": 2
     }
   ],
   "stats": {
-    "avg_premium_24h": 3.8,
-    "avg_premium_7d": 1.6,
-    "avg_premium_30d": 1.2,
-    "trades_24h": 6,
-    "trades_7d": 40,
-    "trades_30d": 236,
-    "last_btc_price": 76123
+    "avg_premium_24h": 5.5,
+    "avg_premium_7d": 1.7,
+    "avg_premium_30d": 1.3,
+    "trades_24h": 2,
+    "trades_7d": 36,
+    "trades_30d": 235,
+    "last_btc_price": 78461
   },
   "payment_methods": [
     {
       "method": "Otros",
-      "count": 165
+      "count": 163
     },
     {
       "method": "SEPA Instant",
@@ -1624,11 +1618,11 @@
     },
     {
       "method": "HalCash",
-      "count": 65
+      "count": 66
     },
     {
       "method": "Revolut",
-      "count": 62
+      "count": 61
     },
     {
       "method": "Wise",

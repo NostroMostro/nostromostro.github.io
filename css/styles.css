@@ -1101,3 +1101,144 @@ section {
     padding: 1.5rem;
   }
 }
+
+/* ── WALLET ── */
+.wallet-subtitle {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 3.5rem 0 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+.wallet-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wallet-features .feature-card {
+  flex: 0 1 calc((100% - 3rem) / 3);
+}
+
+.wallet-swaps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.wallet-swap {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.wallet-swap-route {
+  display: block;
+  color: var(--text-secondary);
+  font-size: 0.93rem;
+  margin-bottom: 0.4rem;
+}
+
+.wallet-swap-fee {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.wallet-swap-free {
+  color: var(--accent-orange);
+}
+
+.wallet-swap-note {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
+.steps-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.steps-4::before {
+  left: 12.5%;
+  right: 12.5%;
+}
+
+.step p a {
+  color: var(--accent-orange);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(247, 147, 26, 0.4);
+}
+
+.wallet-cta {
+  margin-top: 2.5rem;
+}
+
+.wallet-notice {
+  max-width: 700px;
+  margin: 3rem auto 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent-red);
+  border-radius: var(--radius-sm);
+  padding: 1.5rem 1.8rem;
+}
+
+.wallet-notice h3 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  margin-bottom: 0.7rem;
+}
+
+.wallet-notice p {
+  color: var(--text-secondary);
+  font-size: 0.93rem;
+  line-height: 1.65;
+}
+
+.wallet-notice p + p {
+  margin-top: 0.6rem;
+}
+
+.wallet-notice strong {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .wallet-features .feature-card {
+    flex-basis: calc((100% - 1.5rem) / 2);
+  }
+
+  .steps-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1.5rem;
+  }
+
+  .steps-4::before {
+    display: none;
+  }
+
+  .wallet-swaps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .wallet-features .feature-card {
+    flex-basis: 100%;
+  }
+
+  .steps-4 {
+    grid-template-columns: 1fr;
+  }
+}
